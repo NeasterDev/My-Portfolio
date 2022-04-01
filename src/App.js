@@ -1,10 +1,6 @@
-import './App.css';
-import Nav from "./components/Nav";
+import React from "react";
+import PageContent from "./components/PageContent";
 
-function App() {
-  return (
-    <Nav></Nav>
-  );
-}
+const App = () => <PageContent />;
 
 export default App;
