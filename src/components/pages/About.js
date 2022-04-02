@@ -10,10 +10,20 @@ const About = () => {
             </div>
             <div className="flex text-2xl mx-10">
                 <ul className="flex flex-col md:flex-row flex-wrap ">
-                    <li className="mr-1">
-                        <a href="#" className=" w-40 md:w-auto inline-block bg-green-400 border-b-2 border-black hover:bg-green-200 focus:bg-green-300 md:rounded-t-lg py-4 px-4 ">
+                    <li className="mr-1  ">
+                        <a href="/" id="con" className=" w-40 md:w-auto inline-block bg-green-400 border-b-2 border-black hover:bg-green-200 focus:bg-green-300 md:rounded-t-lg py-4 px-4 "
+                        onClick={(e) => {
+                            e.preventDefault();
+                            let info = document.querySelector('#experience');
+                            console.log(info);
+                            (info.style.display === "none") ? info.style.display = 'block' : info.style.display = 'none'; 
+                        }}
+                        >
                             Experience
                         </a>
+                        <div id="experience" className=" after:transition ease-in duration-500 " 
+                            
+                        > TRANSITION </div>
                     </li>
                     <li className="mr-1">
                         <a href="#" className=" w-40 md:w-auto inline-block bg-green-400 border-b-2 border-black hover:bg-green-200 focus:bg-green-300 md:rounded-t-lg py-4 px-4 ">

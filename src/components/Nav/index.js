@@ -3,13 +3,13 @@ import React from "react";
 const Nav = ({ currentPage, handlePageChange }) => {
   return (
     <div>
-      <nav class=" bg-green-200 shadow-lg">
-        <div class="px-4">
-          <div class="flex justify-between">
+      <nav className=" bg-green-200 shadow-lg">
+        <div className="px-4">
+          <div className="flex justify-between">
             {/* Nav title */}
-            <div class="flex">
-              <a href="/" class="flex items-center py-4 px-2">
-                <span class="font-semibold text-green-900 text-3xl">
+            <div className="flex">
+              <a href="/" className="flex items-center py-4 px-2">
+                <span className="font-semibold text-green-900 text-3xl">
                   Nicholas Easter
                 </span>
               </a>
