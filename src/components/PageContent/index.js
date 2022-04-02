@@ -26,7 +26,7 @@ const PageContent = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
       {renderPage()}
       <Foot></Foot>
