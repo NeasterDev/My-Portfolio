@@ -17,15 +17,13 @@
         display: block;
     }
 
-    #con div {
-         /* This timing applies on the way IN */
-        transition-timing-function: ease-out;
+    .animate {
+        animation: fadeIn linear 3s;
+    }
 
-        /* A litttttle slower on the way in */
-        transition: 0.25s;
-  
-        /* Move into place */
-        transform: translateY(0);
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
     }
     
 
