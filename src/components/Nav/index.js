@@ -3,11 +3,11 @@ import React from "react";
 const Nav = ({ currentPage, handlePageChange }) => {
   return (
     <div>
-      <nav className=" bg-green-200 shadow-lg">
+      <nav className=" bg-green-200 shadow-lg w-screen">
         <div className="px-4">
-          <div className="flex justify-between">
+          <div className="flex flex-col md:flex-row justify-between">
             {/* Nav title */}
-            <div className="flex">
+            <div className="flex justify-center md:justify-start">
               <a href="/" className="flex items-center py-4 px-2">
                 <span className="font-semibold text-green-900 text-3xl">
                   Nicholas Easter
@@ -15,7 +15,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
               </a>
             </div>
             {/* Nav links start */}
-            <div className="flex my-auto mr-7">
+            <div className="flex flex-wrap justify-center md:justify-start md:my-auto md:mr-7">
               <a
                 className=""
                 href="/"
