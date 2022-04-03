@@ -26,9 +26,12 @@ const PageContent = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="">
+    <div className=" flex flex-col min-h-screen">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
-      {renderPage()}
+      <main className="flex-grow">
+        {renderPage()}
+      </main>
+
       <Foot></Foot>
     </div>
   );
