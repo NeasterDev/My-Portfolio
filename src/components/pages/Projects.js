@@ -9,7 +9,7 @@ const Projects = () => {
                     Projects
                 </h1>
             </div>
-            <ProjectCard projectName="Project1" />
+            <ProjectCard imgLink="https://via.placeholder.com/250" title="Project 1" github="www.github.com"  />
         </div>
     );
 }

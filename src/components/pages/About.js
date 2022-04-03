@@ -73,7 +73,7 @@ const About = () => {
                         </a>
                     </li>
                 </ul>
-                <div className="mb-20 mt-4">
+                <div className=" mt-4">
                     <div id="experience" className="animate hidden"> {filler} </div>
                     <div id="technologies" className="animate hidden"> {filler} </div>
                     <div id="education" className="animate hidden"> {filler} </div>
