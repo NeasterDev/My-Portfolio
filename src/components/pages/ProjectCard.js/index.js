@@ -8,7 +8,7 @@ const ProjectCard = ({ title, github, imgLink }) => {
     }
     return (
 
-        <div className={"m-2 bg-no-repeat flex flex-col justify-center items-center h-96"}
+        <div className={"m-2 bg-no-repeat flex flex-col justify-center items-center h-96 "}
              style={myStyle}>
             <div className="">
                 <span>{title}</span>
