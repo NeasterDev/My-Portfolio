@@ -10,22 +10,22 @@ const Projects = () => {
                 </h1>
             </div>
             <div className="flex flex-col md:flex-row flex-wrap items-center lg:justify-start">
-                <div className="flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 border-[16px] border-green-900 hover:border-green-400 rounded-lg">
+                <div className="flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl rounded-lg">
                     <ProjectCard imgLink="https://via.placeholder.com/300/09f/fff.png" title="Project 1" github="www.github.com"  />
                 </div>
-                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 border-[16px] border-green-900 hover:border-green-400 rounded-t-lg">
+                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl hover:border-green-400 rounded-lg">
                     <ProjectCard imgLink="https://via.placeholder.com/300/09f/fff.png" title="Project 1" github="www.github.com"  />
                 </div>
-                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 border-[16px] border-green-900 hover:border-green-400 rounded-t-lg">
+                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl hover:border-green-400 rounded-lg">
                     <ProjectCard imgLink="https://via.placeholder.com/300/09f/fff.png" title="Project 1" github="www.github.com"  />
                 </div>
-                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 border-[16px] border-green-900 hover:border-green-400 rounded-t-lg">
+                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl hover:border-green-400 rounded-lg">
                     <ProjectCard imgLink="https://via.placeholder.com/300/09f/fff.png" title="Project 1" github="www.github.com"  />
                 </div>
-                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 border-[16px] border-green-900 hover:border-green-400 rounded-t-lg">
+                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl hover:border-green-400 rounded-lg">
                     <ProjectCard imgLink="https://via.placeholder.com/300/09f/fff.png" title="Project 1" github="www.github.com"  />
                 </div>
-                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 border-[16px] border-green-900 hover:border-green-400 rounded-t-lg">
+                <div className=" flex-grow mb-4 w-2/3 lg:w-1/5 2xl:w-3/12 md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl hover:border-green-400 rounded-lg">
                     <ProjectCard imgLink="https://via.placeholder.com/300/09f/fff.png" title="Project 1" github="www.github.com"  />
                 </div>
             </div>
