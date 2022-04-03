@@ -5,7 +5,7 @@ const ProjectCard = ({ title, github, imgLink }) => {
 
     return (
 
-        <div className={"flex flex-col justify-center items-center w-1/5 h-52 bg-[url('https://via.placeholder.com/150')]"}>
+        <div className={"flex flex-col justify-center items-center w-1/5 h-52 bg-[url('" + imgLink + "')]"}>
             <div>
                 <span>{title}</span>
             </div>
