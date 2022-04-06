@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div>
             <div className="mt-6 flex justify-center md:justify-start">
-                <h1 className=" md:ml-10 cursor-default text-shadow text-8xl text-center md:text-left text-green-400 hover:text-green-500   ">
+                <h1 className=" md:ml-10 cursor-default text-shadow md:text-8xl text-6xl text-center md:text-left text-green-400 hover:text-green-500   ">
                     Projects
                 </h1>
             </div>

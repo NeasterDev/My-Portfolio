@@ -28,7 +28,7 @@ const PageContent = () => {
   return (
     <div className=" flex flex-col min-h-screen">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
-      <main className="flex-grow">
+      <main className="flex-grow bg-green-50/50">
         {renderPage()}
       </main>
 
