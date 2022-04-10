@@ -14,12 +14,16 @@ const ProjectCard = ({ title, github, imgLink, websiteLink }) => {
       style={myStyle}
     >
       <div className="">
-        <a href={websiteLink} className="text-4xl md:text-7xl font-bold opacity-40 hover:opacity-100 cursor-pointer">{title}</a>
+        <a href={websiteLink} className="text-3xl font-bold opacity-40 hover:opacity-100 cursor-pointer">{title}</a>
       </div>
       <div className=" opacity-30 hover:opacity-100">
-        <a href={github} className="flex justify-center">
-            <img src={GithubLogo} alt="github logo" />
-            <img className=" w-1/5" src={GithubLogo2} alt="github logo" />
+        <a href={github} className="flex justify-center w-1/2 m-auto">
+          <img className="" src={GithubLogo} alt="github logo" />
+          <div className="flex">
+          <img className="" src={GithubLogo2} alt="github logo" />
+          </div>
+            
+            
         </a>
       </div>
     </div>
