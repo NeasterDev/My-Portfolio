@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         'black-rgba-0': 'rgba(0, 0, 0, 0)',
-        'black-rgba-3': 'rgba(0, 0, 0, 0.1)',
+        'black-rgba-1': 'rgba(0, 0, 0, 0.1)',
         'black-rgba-5': 'rgba(0, 0, 0, 0.5)',
       }
     },
