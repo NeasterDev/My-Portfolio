@@ -17,13 +17,13 @@ const ProjectCard = ({ title, github, imgLink, websiteLink }) => {
         <a href={websiteLink} className="text-3xl font-bold opacity-40 hover:opacity-100 cursor-pointer">{title}</a>
       </div>
       <div className=" opacity-30 hover:opacity-100">
-        <a href={github} className="flex justify-center w-1/2 m-auto">
+        <a href={github} className="flex justify-center w-1/2 m-a">
           <img className="" src={GithubLogo} alt="github logo" />
           <div className="flex">
-          <img className="" src={GithubLogo2} alt="github logo" />
+            <img className="" src={GithubLogo2} alt="github logo" />
           </div>
-            
-            
+
+
         </a>
       </div>
     </div>
