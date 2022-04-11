@@ -3,7 +3,7 @@ import React from "react";
 const Nav = ({ currentPage, handlePageChange }) => {
   return (
     <div>
-      <nav className=" bg-green-200 shadow-lg w-screen">
+      <nav className=" bg-green-200 bg-opacity-80 hover:bg-opacity-100 shadow-lg w-screen fixed z-50 ">
         <div className="px-4">
           <div className="flex flex-col md:flex-row justify-between">
             {/* Nav title */}
