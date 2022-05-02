@@ -10,7 +10,9 @@ const About = () => {
                             McDonalds, I gained much more self motivation and discipline as I had no schedule that DoorDash required me to follow. Once I was done
                             doordashing, I decided to come work at the Shell gas station that I currently work at. I have been working here for almost two years now 
                             and it has added to my customer service experience and teamwork skills. I hope to leverage these skills that I have learned through my
-                            experiences into my new career path, Full Stack Web Development.`
+                            experiences into my new career path, Full Stack Web Development.`;
+    const technologiesText = `I am proficient: React, HTML5, CSS3, JavaScript, ES6, Node.js, Express.js, MySQL, SQL, MongoDB, GraphQL, NPM, Markdown, and RegEx `;
+    const educationText = `I have successfully completed and received certification from the Full Stack Web Development Bootcamp at UC Riverside`
     return (
         <div className="">
             <div className=" mt-28 flex justify-center md:justify-start">
@@ -102,8 +104,8 @@ const About = () => {
                 
                 <div className="mt-4 flex flex-col md:flex-row">
                     <div id="experience" className="animate hidden">  {experienceText}  </div>
-                    <div id="technologies" className="animate hidden">  {experienceText} </div>
-                    <div id="education" className="animate hidden">  {experienceText} </div>
+                    <div id="technologies" className="animate hidden">  {technologiesText} </div>
+                    <div id="education" className="animate hidden">  {educationText} </div>
                     <div id="default" className="animate">  {experienceText} </div>
                     <div className="w-full md:w-1/2 mt-2 md:mt-0 md:ml-6 md:mb-4 self-center md:self-start md:flex-shrink-0">
                         <img className="mx-auto border-[10px] border-green-400 shadow-2xl" src={selfie} alt="Nicholas Easter"/>
