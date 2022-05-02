@@ -6,6 +6,7 @@ import taskmaster from "../../images/02-taskmaster.png";
 import workScheduler from "../../images/03-schedule.png";
 import runBuddy from "../../images/04-runbuddy.png";
 import quiz from "../../images/05-quiz.png";
+import nelp from '../../images/nelp.png'
 
 const Projects = () => {
     return (
@@ -16,6 +17,9 @@ const Projects = () => {
                 </h1>
             </div>
             <div className="flex flex-col md:flex-row flex-wrap items-center lg:justify-start">
+                <div className="flex-grow mb-4 w-11/12 lg:w-1/5 2xl:max-w-[25%] md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl rounded-lg">
+                    <ProjectCard imgLink={nelp} title="Nelp: National Park Reviews" websiteLink="https://national-parks-reviews.herokuapp.com/" github="https://github.com/crazypants300/review-site"  />
+                </div>
                 <div className="flex-grow mb-4 w-11/12 lg:w-1/5 2xl:max-w-[25%] md:m-12 opacity-75 hover:opacity-100 hover:shadow-2xl rounded-lg">
                     <ProjectCard imgLink={instaShoe} title="InstaShoe" websiteLink="https://shoe-production.herokuapp.com/home" github="https://github.com/crazypants300/Project-Group-2"  />
                 </div>
