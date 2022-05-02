@@ -4,10 +4,13 @@ import selfie from "../../images/selfie-min.png";
 const About = () => {
     
 
-    const filler = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quos eum aliquam voluptates officia harum suscipit. Velit laborum rerum doloremque tempora vel consequuntur quisquam impedit cumque omnis officiis! Sapiente, non?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quos eum aliquam voluptates officia harum suscipit. Velit laborum rerum doloremque tempora vel consequuntur quisquam impedit cumque omnis officiis! Sapiente, non?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quos eum aliquam voluptates officia harum suscipit. Velit laborum rerum doloremque tempora vel consequuntur quisquam impedit cumque omnis officiis! Sapiente, non?`
-
+    const experienceText = `Most of my previous experience is in customer service. I worked two and a half years for McDonalds, where I learned a lot, like how to 
+                            work fast and effectively in a stressful environment, communicate effectively with my team members, and how to provide proper and 
+                            efficient help to our customers. After that, I worked as a DoorDash food delivery driver for six months. DoorDash was very different from
+                            McDonalds, I gained much more self motivation and discipline as I had no schedule that DoorDash required me to follow. Once I was done
+                            doordashing, I decided to come work at the Shell gas station that I currently work at. I have been working here for almost two years now 
+                            and it has added to my customer service experience and teamwork skills. I hope to leverage these skills that I have learned through my
+                            experiences into my new career path, Full Stack Web Development.`
     return (
         <div className="">
             <div className=" mt-28 flex justify-center md:justify-start">
@@ -98,10 +101,10 @@ const About = () => {
                 </ul>
                 
                 <div className="mt-4 flex flex-col md:flex-row">
-                    <div id="experience" className="animate hidden"> Experience {filler} {filler} </div>
-                    <div id="technologies" className="animate hidden"> Technologies {filler} {filler}</div>
-                    <div id="education" className="animate hidden"> Education {filler} {filler}</div>
-                    <div id="default" className="animate"> default {filler} {filler}</div>
+                    <div id="experience" className="animate hidden">  {experienceText}  </div>
+                    <div id="technologies" className="animate hidden">  {experienceText} </div>
+                    <div id="education" className="animate hidden">  {experienceText} </div>
+                    <div id="default" className="animate">  {experienceText} </div>
                     <div className="w-full md:w-1/2 mt-2 md:mt-0 md:ml-6 md:mb-4 self-center md:self-start md:flex-shrink-0">
                         <img className="mx-auto border-[10px] border-green-400 shadow-2xl" src={selfie} alt="Nicholas Easter"/>
                     </div>
