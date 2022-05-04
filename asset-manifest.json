@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.4868121f.css",
-    "main.js": "/My-Portfolio/static/js/main.abf0f1e7.js",
+    "main.js": "/My-Portfolio/static/js/main.c9d1e0e1.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/nelp.png": "/My-Portfolio/static/media/nelp.be0f4d9f45e6963dc062.png",
     "static/media/00-instashoe.png": "/My-Portfolio/static/media/00-instashoe.78619dd3882ec23fa356.png",
     "static/media/04-runbuddy.png": "/My-Portfolio/static/media/04-runbuddy.2fc5b59ebe9a0a588c3f.png",
     "static/media/selfie-min.png": "/My-Portfolio/static/media/selfie-min.ba38de5bf65256c08f84.png",
+    "static/media/Resume.pdf": "/My-Portfolio/static/media/Resume.08984c87fe5038a3286e.pdf",
     "static/media/01-weather.png": "/My-Portfolio/static/media/01-weather.08d04254486ca640ef34.png",
     "static/media/02-taskmaster.png": "/My-Portfolio/static/media/02-taskmaster.df18d5d9528d1ccbd3a2.png",
     "static/media/03-schedule.png": "/My-Portfolio/static/media/03-schedule.ea23f8f14d6ded00b176.png",
     "static/media/GitHub_Logo.png": "/My-Portfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
     "static/media/05-quiz.png": "/My-Portfolio/static/media/05-quiz.57a0d69b0a9b1958074a.png",
     "index.html": "/My-Portfolio/index.html",
-    "static/media/resume.txt": "/My-Portfolio/static/media/resume.f55ff6e6ad2a286a6a62.txt",
     "main.4868121f.css.map": "/My-Portfolio/static/css/main.4868121f.css.map",
-    "main.abf0f1e7.js.map": "/My-Portfolio/static/js/main.abf0f1e7.js.map",
+    "main.c9d1e0e1.js.map": "/My-Portfolio/static/js/main.c9d1e0e1.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4868121f.css",
-    "static/js/main.abf0f1e7.js"
+    "static/js/main.c9d1e0e1.js"
   ]
 }
