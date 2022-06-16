@@ -1,18 +1,26 @@
 import React from "react";
 import selfie from "../../images/selfie-min.png"; 
+import resume from '../../files/Resume.pdf';
 
 const About = () => {
-    
+    const experienceText = `I am a Full Stack Developer able to leverage my years of customer service, and high level of attention
+                            to detail, to deliver high quality and responsive web applications. Utilizing my experience with working in 
+                            stressful, fast paced environments, either independently or as a team, I am able to meet deadlines and meet 
+                            or exceed expectations. I have earned my Full Stack Certificate from the University of California, Riverside, 
+                            where I learned industry proven techniques to develop high-quality, mobile-friendly applications. 
+                            `
 
-    const experienceText = `Most of my previous experience is in customer service. I worked two and a half years for McDonalds, where I learned a lot, like how to 
-                            work fast and effectively in a stressful environment, communicate effectively with my team members, and how to provide proper and 
-                            efficient help to our customers. After that, I worked as a DoorDash food delivery driver for six months. DoorDash was very different from
-                            McDonalds, I gained much more self motivation and discipline as I had no schedule that DoorDash required me to follow. Once I was done
-                            doordashing, I decided to come work at the Shell gas station that I currently work at. I have been working here for almost two years now 
-                            and it has added to my customer service experience and teamwork skills. I hope to leverage these skills that I have learned through my
-                            experiences into my new career path, Full Stack Web Development.`;
     const technologiesText = `I am proficient: React, HTML5, CSS3, JavaScript, ES6, Node.js, Express.js, MySQL, SQL, MongoDB, GraphQL, NPM, Markdown, and RegEx `;
-    const educationText = `I have successfully completed and received certification from the Full Stack Web Development Bootcamp at UC Riverside`
+    
+    const downloadResume = (
+        <div className="flex justify-center">
+                <div className="bg-green-400 hover:bg-green-200 rounded-md p-4 cursor-pointer">
+                    <a href={resume} download="Nicholas_easter_resume">Download Resume</a>
+                </div>
+            </div>
+        );
+
+
     return (
         <div className="">
             <div className=" mt-28 flex justify-center md:justify-start">
@@ -44,7 +52,7 @@ const About = () => {
                                     }
                             }}
                         >
-                            Experience
+                            About me
                         </a>
 
                     </li>
@@ -71,7 +79,7 @@ const About = () => {
                                     }
                             }}
                         >
-                            Technologies
+                            Technical Skills
                         </a>
 
                     </li>
@@ -97,7 +105,7 @@ const About = () => {
                                     }
                             }}
                         >
-                            Education
+                            Resume
                         </a>
                     </li>
                 </ul>
@@ -105,7 +113,7 @@ const About = () => {
                 <div className="mt-4 flex flex-col md:flex-row">
                     <div id="experience" className="animate hidden">  {experienceText}  </div>
                     <div id="technologies" className="animate hidden">  {technologiesText} </div>
-                    <div id="education" className="animate hidden">  {educationText} </div>
+                    <div id="education" className="animate hidden w-full md:pr-11rem">  {downloadResume} </div>
                     <div id="default" className="animate">  {experienceText} </div>
                     <div className="w-full md:w-1/2 mt-2 md:mt-0 md:ml-6 md:mb-4 self-center md:self-start md:flex-shrink-0">
                         <img className="mx-auto border-[10px] border-green-400 shadow-2xl" src={selfie} alt="Nicholas Easter"/>

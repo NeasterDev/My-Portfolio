@@ -21,6 +21,9 @@
         animation: fadeIn linear 1s;
     }
 
+    .pr-11rem {
+        padding-right: 11rem;
+    }
 
     @keyframes fadeIn {
         0% {opacity: 0;}
