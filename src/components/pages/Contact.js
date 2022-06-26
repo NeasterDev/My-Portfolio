@@ -43,47 +43,16 @@ const ContactForm = () => {
           Contact Me
         </h1>
       </div>
-      <div className="flex flex-col items-center md:items-start md:ml-10">
-        <form id="contact-form" onSubmit={handleSubmit}>
-          <div>
-            <input
-              className="m-2 text-3xl shadow-sm border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-200 focus:border-indigo-400"
-              type="text"
-              name="name"
-              placeholder="Name"
-              defaultValue={name}
-              onBlur={handleChange}
-            />
-          </div>
-          <div>
-            <input
-              className="m-2 text-3xl rounded-lg border-gray-300 shadow-sm focus:ring-2 focus:ring-indigo-200 focus:border-indigo-400"
-              type="email"
-              name="email"
-              placeholder="Email"
-              defaultValue={email}
-              onBlur={handleChange}
-            />
-          </div>
-          <div>
-            <textarea
-              className="m-2 text-3xl rounded-lg border-gray-300 shadow-sm focus:ring-2 focus:ring-indigo-200 focus:border-indigo-400"
-              name="message"
-              rows="5"
-              placeholder="Enter Message..."
-              defaultValue={message}
-              onBlur={handleChange}
-            />
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text text-2xl">{errorMessage}</p>
-            </div>
-          )}
-          <button data-testid="button" type="submit" className="text-4xl bg-green-200 shadow-md hover:bg-green-400 rounded-lg p-2 mt-2">
-            Submit
-          </button>
-        </form>
+      <div className="flex flex-col items-center mt-12 ">
+        <div className="flex flex-col items-center bg-green-200 border-4 p-6">
+          <h1 className="cursor-default md:text-6xl text-4xl">Email:</h1>
+          <div className="md:text-4xl text-2xl hover:text-green-500"><a href="mailto: nicholas.easter17@gmail.com">nicholas.easter17@gmail.com</a></div>
+
+        </div>
+        <div className="flex flex-col items-center mt-6 bg-green-200 border-4 p-6">
+          <h1 className="cursor-default md:text-6xl text-4xl">Call:</h1>
+          <a className="md:text-4xl text-2xl hover:text-green-500" href="tel:909-268-6080">(909)-268-6080</a>
+        </div>
       </div>
     </section>
   );
